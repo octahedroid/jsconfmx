@@ -14,7 +14,7 @@ function Header({ scrolled, children }) {
     <nav
       id="header"
       className={cx(`fixed w-full z-30 h-nabvar top-0 text-white bg-white`, {
-        'shadow-lg': scrolled
+        "shadow-lg": scrolled
       })}
       sx={{
         transition: theme.transitions.shadow
@@ -29,12 +29,12 @@ function Header({ scrolled, children }) {
 
 Header.Branding = props => {
   return (
-      <Link
-        className="flex items-center text-primary no-underline hover:no-underline font-bold text-2xl lg:text-3xl text-gray-800 py-2"
-        to="/"
-      >
-        {props.children}
-      </Link>
+    <Link
+      className="flex items-center text-primary no-underline hover:no-underline font-bold text-2xl lg:text-3xl text-gray-800 py-2"
+      to="/"
+    >
+      {props.children}
+    </Link>
   );
 };
 
@@ -45,10 +45,12 @@ Header.Navbar = ({ handleShowSidebar, children, align }) => {
         className="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden lg:block bg-white text-black z-20"
         id="nav-content"
       >
-        <ul className={cx("list-reset lg:flex  flex-1 items-center p-0 m-0", {
-          'justify-end': !align||align==='right',
-          'justify-start': align==='left',
-        })}>
+        <ul
+          className={cx("list-reset lg:flex  flex-1 items-center p-0 m-0", {
+            "justify-end": !align || align === "right",
+            "justify-start": align === "left"
+          })}
+        >
           {children}
         </ul>
       </div>

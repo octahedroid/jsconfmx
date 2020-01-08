@@ -36,6 +36,6 @@ HeroCta.Image = props => (
     {props.name && <ImageProvider src={props.name} />}
     {props.image && <ImageProvider image={props.image} />}
   </>
-)
+);
 
 export default HeroCta;

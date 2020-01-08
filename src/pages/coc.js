@@ -14,11 +14,11 @@ const CoC = () => {
             Code of Conduct of JSConf Mexico
           </TextBlock.Title>
           <TextBlock.Text className="text-primary mb-4">
-              All attendees, speakers, sponsors and volunteers at JSConf Mexico
-              are required to agree with the following code of conduct.
-              Organizers will enforce this code throughout the event. We are
-              expecting coorporation from all participants to help ensuring a
-              safe environment for everybody.
+            All attendees, speakers, sponsors and volunteers at JSConf Mexico
+            are required to agree with the following code of conduct. Organizers
+            will enforce this code throughout the event. We are expecting
+            coorporation from all participants to help ensuring a safe
+            environment for everybody.
           </TextBlock.Text>
         </TextBlock>
         <Layout.Container padding="p-0" flex>
@@ -40,10 +40,10 @@ const CoC = () => {
                 Phone (MX): +52 999 - 999 - 99
               </TextBlock.Text>
               <TextBlock.Text className="text-primary mb-4">
-                  Conference staff will be happy to help participants contact
-                  hotel/venue security or local law enforcement, provide
-                  escorts, or otherwise assist those experiencing harassment to
-                  feel safe for the duration of the conference.
+                Conference staff will be happy to help participants contact
+                hotel/venue security or local law enforcement, provide escorts,
+                or otherwise assist those experiencing harassment to feel safe
+                for the duration of the conference.
               </TextBlock.Text>
               <TextBlock.Text className="text-primary">
                 We value your attendance.
@@ -59,26 +59,26 @@ const CoC = () => {
                 Purpose of this document
               </TextBlock.Title>
               <TextBlock.Text className="text-primary mb-4">
-                  JSConf Mexico is dedicated to providing a harassment-free
-                  conference experience for everyone, regardless of gender,
-                  sexual orientation, disability, physical appearance, body
-                  size, race, or religion. We do not tolerate harassment of
-                  conference participants in any form. Sexual language and
-                  imagery is not appropriate for any conference venue, including
-                  talks, workshops, parties, Twitter and other online media.
+                JSConf Mexico is dedicated to providing a harassment-free
+                conference experience for everyone, regardless of gender, sexual
+                orientation, disability, physical appearance, body size, race,
+                or religion. We do not tolerate harassment of conference
+                participants in any form. Sexual language and imagery is not
+                appropriate for any conference venue, including talks,
+                workshops, parties, Twitter and other online media.
               </TextBlock.Text>
               <TextBlock.Text className="text-primary mb-4">
-                  Conference participants violating these rules may be
-                  sanctioned or expelled from the conference without a refund at
-                  the discretion of the conference organizers.
+                Conference participants violating these rules may be sanctioned
+                or expelled from the conference without a refund at the
+                discretion of the conference organizers.
               </TextBlock.Text>
               <TextBlock.Text className="text-primary mb-4">
-                  Sponsors are also subject to the anti-harassment policy. In
-                  particular, sponsors should not use sexualized images,
-                  activities, or other material. Booth staff (including
-                  volunteers) should not use sexualized
-                  clothing/uniforms/costumes, or otherwise create a sexualized
-                  environment.
+                Sponsors are also subject to the anti-harassment policy. In
+                particular, sponsors should not use sexualized images,
+                activities, or other material. Booth staff (including
+                volunteers) should not use sexualized
+                clothing/uniforms/costumes, or otherwise create a sexualized
+                environment.
               </TextBlock.Text>
             </TextBlock>
           </Layout.Column>
@@ -88,10 +88,10 @@ const CoC = () => {
             Reporting
           </TextBlock.Title>
           <TextBlock.Text className="text-primary">
-              If someone makes you or anyone else feel unsafe or unwelcome,
-              please report it as soon as possible. If you see or hear someone
-              do something, that might violate this Code of Conduct, please
-              report it.
+            If someone makes you or anyone else feel unsafe or unwelcome, please
+            report it as soon as possible. If you see or hear someone do
+            something, that might violate this Code of Conduct, please report
+            it.
           </TextBlock.Text>
         </TextBlock>
         <TextBlock>
@@ -107,8 +107,8 @@ const CoC = () => {
             />
             <Card.Divider className="border-b-2 border-primary" />
             <Card.Text>
-                Contacting a staff member, identified by our bright yellow
-                tshirts with our logo on it.
+              Contacting a staff member, identified by our bright yellow tshirts
+              with our logo on it.
             </Card.Text>
           </Card>
           <Card className="w-1/3 p-3">
@@ -118,8 +118,8 @@ const CoC = () => {
             />
             <Card.Divider className="border-b-2 border-success" />
             <Card.Text>
-                Contacting a staff member, identified by our bright yellow
-                tshirts with our logo on it.
+              Contacting a staff member, identified by our bright yellow tshirts
+              with our logo on it.
             </Card.Text>
           </Card>
           <Card className="w-1/3 p-3">
@@ -129,27 +129,28 @@ const CoC = () => {
             />
             <Card.Divider className="border-b-2 border-secondary" />
             <Card.Text>
-                Contacting a staff member, identified by our bright yellow
-                tshirts with our logo on it.
+              Contacting a staff member, identified by our bright yellow tshirts
+              with our logo on it.
             </Card.Text>
           </Card>
         </Card.Group>
         <TextBlock bg="primary" className="p-4 ">
+          <Title as="h3" className="text-white font-light mb-3">
+            Enforcement
+          </Title>
           <TextBlock.Text className=" text-white mb-3">
-            <Title as="h3" className="text-white font-light mb-3">
-              Enforcement
-            </Title>
-            Participants asked to stop any harassing behavior are expected to comply immediately.
+            Participants asked to stop any harassing behavior are expected to
+            comply immediately.
           </TextBlock.Text>
           <TextBlock.Text className=" text-white mb-3">
-              If a participant engages in harassing behaviour, event organisers
-              retain the right to take any actions to keep the event a welcoming
-              environment for all participants. This includes warning the
-              offender or expulsion from the conference with no refund.
+            If a participant engages in harassing behaviour, event organisers
+            retain the right to take any actions to keep the event a welcoming
+            environment for all participants. This includes warning the offender
+            or expulsion from the conference with no refund.
           </TextBlock.Text>
           <TextBlock.Text className=" text-white mb-3">
-              We expect participants to follow these rules at conference and
-              workshop venues and conference-related social events.
+            We expect participants to follow these rules at conference and
+            workshop venues and conference-related social events.
           </TextBlock.Text>
         </TextBlock>
         <TextBlock>
@@ -212,8 +213,8 @@ const CoC = () => {
             Photo policy
           </TextBlock.Title>
           <TextBlock.Text className="text-primary">
-              We will have colored lanyards for attendees to indicate their
-              comfort level with being photographed:
+            We will have colored lanyards for attendees to indicate their
+            comfort level with being photographed:
           </TextBlock.Text>
         </TextBlock>
         <Layout.Container padding="p-0" flex className="mb-4">
@@ -221,8 +222,8 @@ const CoC = () => {
             <List.Group>
               <List.Item>
                 <List.ItemIcon className="text-primary" />
-                Black means It's OK to take photographs
-                (within the boundaries of the Code of Conduct)
+                Black means It's OK to take photographs (within the boundaries
+                of the Code of Conduct)
               </List.Item>
             </List.Group>
           </Layout.Column>
@@ -230,8 +231,8 @@ const CoC = () => {
             <List.Group>
               <List.Item>
                 <List.ItemIcon className="text-primary" />
-                Red means you should not take photos of someone,
-                nor should you ask if you may
+                Red means you should not take photos of someone, nor should you
+                ask if you may
               </List.Item>
             </List.Group>
           </Layout.Column>
@@ -241,9 +242,9 @@ const CoC = () => {
             Inclusive language
           </TextBlock.Title>
           <TextBlock.Text className=" text-primary mb-3">
-              In our commitment to a harassment-free and inclusive environment
-              we strongly believe it's important to pay attention to harmful
-              language patterns
+            In our commitment to a harassment-free and inclusive environment we
+            strongly believe it's important to pay attention to harmful language
+            patterns
           </TextBlock.Text>
           <Layout.Container flex padding="p-0">
             <Layout.Column columns="6" className="pr-4">
@@ -251,17 +252,18 @@ const CoC = () => {
                 Ableism
               </TextBlock.Title>
               <TextBlock.Text className=" text-primary mb-3">
-                  Words like "crazy", "dumb", "insane" or "lame" are examples of
-                  ableist language, devaluating people who have physical or
-                  mental disabilities. Its appearance often stems not from any
-                  intentional desire to offend, but from our innate sense of
-                  what it means to be normal. These words can be avoided by
-                  using more fitting, clearer descriptions of what we want to
-                  communicate. To find out more about ableism and replacement
-                  terms please read this guide.
+                Words like "crazy", "dumb", "insane" or "lame" are examples of
+                ableist language, devaluating people who have physical or mental
+                disabilities. Its appearance often stems not from any
+                intentional desire to offend, but from our innate sense of what
+                it means to be normal. These words can be avoided by using more
+                fitting, clearer descriptions of what we want to communicate. To
+                find out more about ableism and replacement terms please read
+                this guide.
               </TextBlock.Text>
               <TextBlock.Text className=" text-primary mb-3">
-                  To find out more about ableism and replacement terms please read this guide.
+                To find out more about ableism and replacement terms please read
+                this guide.
               </TextBlock.Text>
             </Layout.Column>
             <Layout.Column
@@ -272,14 +274,14 @@ const CoC = () => {
                 Sexism
               </TextBlock.Title>
               <TextBlock.Text className=" text-primary mb-3">
-                  Using gendered terms like "dude" or "guys" to address a
-                  mixed-gendered group of people contributes to furthering
-                  exclusion of underrepresented individuals. We strongly advise
-                  avoiding gendered pronouns as well as gendered terms.
+                Using gendered terms like "dude" or "guys" to address a
+                mixed-gendered group of people contributes to furthering
+                exclusion of underrepresented individuals. We strongly advise
+                avoiding gendered pronouns as well as gendered terms.
               </TextBlock.Text>
               <TextBlock.Text className=" text-primary mb-3">
-                  For more information please familiarise yourself with the Geek
-                  Feminism wiki guide.
+                For more information please familiarise yourself with the Geek
+                Feminism wiki guide.
               </TextBlock.Text>
             </Layout.Column>
           </Layout.Container>
@@ -289,9 +291,9 @@ const CoC = () => {
             Attribution
           </TextBlock.Title>
           <TextBlock.Text className="text-primary">
-              This Code of Conduct was based on JSConf EU, CSSConf / JSConf AU,
-              The Geek Feminism wiki, the work of Valerie Aurora, WeAllJS, and
-              Conference Code of Conduct.
+            This Code of Conduct was based on JSConf EU, CSSConf / JSConf AU,
+            The Geek Feminism wiki, the work of Valerie Aurora, WeAllJS, and
+            Conference Code of Conduct.
           </TextBlock.Text>
         </TextBlock>
       </Layout.Container>
