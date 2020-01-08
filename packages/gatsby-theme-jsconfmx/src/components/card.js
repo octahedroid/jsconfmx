@@ -18,10 +18,9 @@ const Card = props => {
 };
 
 Card.Intro = props => <IntroText>{props.children}</IntroText>;
+
 Card.Image = props => {
-
   const image = <>{props.src && <ImageProvider {...props} />}</>
-
   return props.to?(
     <Link
       to={props.to}
@@ -31,17 +30,23 @@ Card.Image = props => {
     </Link>
   ):image
 };
+
 Card.Title = props => (
   <Title as="h3" className="font-alternative mb-3">
     {props.children}
   </Title>
 );
+
 Card.Text = props => (
   <Paragraph className="my-2 text-primary">
     <>{props.children}</>
-  </Paragraph>);
+  </Paragraph>
+);
+
 Card.Divider = props => <hr {...props} />
+
 Card.Button = props => <Cta {...props}>{props.children}</Cta>;
+
 Card.Link = props => (
   <Link
     to={props.to}
@@ -51,13 +56,11 @@ Card.Link = props => (
   </Link>
 );
 
-Card.Group = props => {
-  return (
-    <div className="container mx-auto py-3">
-      <div className="flex flex-wrap items-start">{props.children}</div>
-    </div>
-  );
-};
+Card.Group = props => (
+  <div className="container mx-auto py-3">
+    <div className="flex flex-wrap items-start">{props.children}</div>
+  </div>
+);
 
 Card.GroupTitle = props => (
   <Title as="h2" font="alternative" centered>
