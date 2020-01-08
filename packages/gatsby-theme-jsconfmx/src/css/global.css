@@ -1,0 +1,11 @@
+
+.gradient {
+    background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
+}
+
+.rotate-90{
+    transform: rotate(90deg);
+}
+.rotate-45{
+    transform: rotate(45deg);
+}

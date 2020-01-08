@@ -1,13 +1,11 @@
 import React from "react";
 
-import Layout from "gatsby-theme-octahedroid/src/components/layout-example";
-import SEO from "gatsby-theme-octahedroid/src/components/seo";
+import Layout from "../components/layout";
 import abductionIllustration from "../images/abduction-illustration.svg";
 
 function NotFoundPage() {
   return (
-    <Layout>
-      <SEO title="404: Not found" />
+    <Layout title="404: Not found">
       <div>
         <img
           src={abductionIllustration}

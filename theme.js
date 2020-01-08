@@ -1,22 +1,26 @@
 
 
-const baseTheme = require('gatsby-theme-octahedroid/theme');
+const baseTheme = require('gatsby-theme-jsconfmx/theme');
 
 const myTheme = {
   ...baseTheme,
   colors: {
     ...baseTheme.colors,
-    primary: 'orange',
-    secondary: '#542c85',
-    accent: '#E8DA8B',
-    darkShade: '#37375B',
-    lightShade: '#F7F7F7'
+    primary: '#5f2265',
+    secondary: '#ce2281',
+    accent: '#ed335b',
+    success: '#0da695',
+    darkShade: '#f16935',
+    lightShade: '#f0c328',
+    lightPrimary: 'rgba(95,34,101, .06)',
+    darkPrimary: 'rgba(95,34,101, .3)'
   },
   height:{
     ...baseTheme.height,
+    navbar: '50px',
     hero: '700px'
   },
-  styles: {
+  styles: { 
     ...baseTheme.styles,
     h1: {
       ...baseTheme.heading,

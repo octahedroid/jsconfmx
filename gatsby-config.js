@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Octahedroid`,
+    title: `Mexico`,
     description: `We do JAMstack`,
     author: `@jmolivas`,
     github: `https://github.com/octahedroid`,
@@ -11,7 +11,7 @@ module.exports = {
   },
   plugins: [
     {
-      resolve: `gatsby-theme-octahedroid`,
+      resolve: `gatsby-theme-jsconfmx`,
       options: {
         root: __dirname,
         themePath: `${__dirname}/theme`
