@@ -14,13 +14,11 @@ const CoC = () => {
             Code of Conduct of JSConf Mexico
           </TextBlock.Title>
           <TextBlock.Text className="text-primary mb-4">
-            <span>
               All attendees, speakers, sponsors and volunteers at JSConf Mexico
               are required to agree with the following code of conduct.
               Organizers will enforce this code throughout the event. We are
               expecting coorporation from all participants to help ensuring a
               safe environment for everybody.
-            </span>
           </TextBlock.Text>
         </TextBlock>
         <Layout.Container padding="p-0" flex>
@@ -30,25 +28,25 @@ const CoC = () => {
                 Need help?
               </TextBlock.Title>
               <TextBlock.Text className="text-primary">
-                <span>Contact us!</span>
+                Contact us!
+              </TextBlock.Text>
+              <TextBlock.Text className="text-primary">
+                Twitter: @_nec
+              </TextBlock.Text>
+              <TextBlock.Text className="text-primary">
+                Email: report@jsconf.mx
               </TextBlock.Text>
               <TextBlock.Text className="text-primary mb-4">
-                <span>Twitter: @_nec</span>
-                <br />
-                <span>Email: report@jsconf.mx</span>
-                <br />
-                <span>Phone (MX): +52 999 - 999 - 99</span>
+                Phone (MX): +52 999 - 999 - 99
               </TextBlock.Text>
               <TextBlock.Text className="text-primary mb-4">
-                <span>
                   Conference staff will be happy to help participants contact
                   hotel/venue security or local law enforcement, provide
                   escorts, or otherwise assist those experiencing harassment to
                   feel safe for the duration of the conference.
-                </span>
               </TextBlock.Text>
               <TextBlock.Text className="text-primary">
-                <span>We value your attendance.</span>
+                We value your attendance.
               </TextBlock.Text>
             </TextBlock>
           </Layout.Column>
@@ -61,7 +59,6 @@ const CoC = () => {
                 Purpose of this document
               </TextBlock.Title>
               <TextBlock.Text className="text-primary mb-4">
-                <span>
                   JSConf Mexico is dedicated to providing a harassment-free
                   conference experience for everyone, regardless of gender,
                   sexual orientation, disability, physical appearance, body
@@ -69,24 +66,19 @@ const CoC = () => {
                   conference participants in any form. Sexual language and
                   imagery is not appropriate for any conference venue, including
                   talks, workshops, parties, Twitter and other online media.
-                </span>
               </TextBlock.Text>
               <TextBlock.Text className="text-primary mb-4">
-                <span>
                   Conference participants violating these rules may be
                   sanctioned or expelled from the conference without a refund at
                   the discretion of the conference organizers.
-                </span>
               </TextBlock.Text>
               <TextBlock.Text className="text-primary mb-4">
-                <span>
                   Sponsors are also subject to the anti-harassment policy. In
                   particular, sponsors should not use sexualized images,
                   activities, or other material. Booth staff (including
                   volunteers) should not use sexualized
                   clothing/uniforms/costumes, or otherwise create a sexualized
                   environment.
-                </span>
               </TextBlock.Text>
             </TextBlock>
           </Layout.Column>
@@ -96,18 +88,15 @@ const CoC = () => {
             Reporting
           </TextBlock.Title>
           <TextBlock.Text className="text-primary">
-            <span>
               If someone makes you or anyone else feel unsafe or unwelcome,
               please report it as soon as possible. If you see or hear someone
               do something, that might violate this Code of Conduct, please
               report it.
-            </span>
           </TextBlock.Text>
         </TextBlock>
-
         <TextBlock>
           <TextBlock.Text className="text-primary">
-            <span>You can make a personal report by:</span>
+            You can make a personal report by:
           </TextBlock.Text>
         </TextBlock>
         <Card.Group>
@@ -118,10 +107,8 @@ const CoC = () => {
             />
             <Card.Divider className="border-b-2 border-primary" />
             <Card.Text>
-              <span>
                 Contacting a staff member, identified by our bright yellow
                 tshirts with our logo on it.
-              </span>
             </Card.Text>
           </Card>
           <Card className="w-1/3 p-3">
@@ -131,10 +118,8 @@ const CoC = () => {
             />
             <Card.Divider className="border-b-2 border-success" />
             <Card.Text>
-              <span>
                 Contacting a staff member, identified by our bright yellow
                 tshirts with our logo on it.
-              </span>
             </Card.Text>
           </Card>
           <Card className="w-1/3 p-3">
@@ -144,47 +129,35 @@ const CoC = () => {
             />
             <Card.Divider className="border-b-2 border-secondary" />
             <Card.Text>
-              <span>
                 Contacting a staff member, identified by our bright yellow
                 tshirts with our logo on it.
-              </span>
             </Card.Text>
           </Card>
         </Card.Group>
-
         <TextBlock bg="primary" className="p-4 ">
           <TextBlock.Text className=" text-white mb-3">
             <Title as="h3" className="text-white font-light mb-3">
               Enforcement
             </Title>
-            <span>
-              Participants asked to stop any harassing behavior are expected to
-              comply immediately.
-            </span>
+            Participants asked to stop any harassing behavior are expected to comply immediately.
           </TextBlock.Text>
-
           <TextBlock.Text className=" text-white mb-3">
-            <span>
               If a participant engages in harassing behaviour, event organisers
               retain the right to take any actions to keep the event a welcoming
               environment for all participants. This includes warning the
               offender or expulsion from the conference with no refund.
-            </span>
           </TextBlock.Text>
           <TextBlock.Text className=" text-white mb-3">
-            <span>
               We expect participants to follow these rules at conference and
               workshop venues and conference-related social events.
-            </span>
           </TextBlock.Text>
         </TextBlock>
-
         <TextBlock>
           <TextBlock.Title className="text-secondary">
             Harassment
           </TextBlock.Title>
           <TextBlock.Text className="text-primary">
-            <span>Harassment includes, but is not limited to:</span>
+            Harassment includes, but is not limited to:
           </TextBlock.Text>
         </TextBlock>
         <Layout.Container padding="p-0" flex>
@@ -201,15 +174,15 @@ const CoC = () => {
               </List.Item>
               <List.Item>
                 <List.ItemIcon className="text-primary" />
-                <span>Sexual images in public spaces</span>
+                Sexual images in public spaces
               </List.Item>
               <List.Item>
                 <List.ItemIcon className="text-primary" />
-                <span>Deliberate intimidation, stalking, or following</span>
+                Deliberate intimidation, stalking, or following
               </List.Item>
               <List.Item>
                 <List.ItemIcon className="text-primary" />
-                <span>Harassing photography or recording</span>
+                Harassing photography or recording
               </List.Item>
             </List.Group>
           </Layout.Column>
@@ -217,21 +190,19 @@ const CoC = () => {
             <List.Group>
               <List.Item>
                 <List.ItemIcon className="text-primary" />
-                <span>Sustained disruption of talks or other events</span>
+                Sustained disruption of talks or other events
               </List.Item>
               <List.Item>
                 <List.ItemIcon className="text-primary" />
-                <span>Inappropriate physical contact</span>
+                Inappropriate physical contact
               </List.Item>
               <List.Item>
                 <List.ItemIcon className="text-primary" />
-                <span>Unwelcome sexual attention</span>
+                Unwelcome sexual attention
               </List.Item>
               <List.Item>
                 <List.ItemIcon className="text-primary" />
-                <span>
-                  Advocating for, or encouraging, any of the above behaviour
-                </span>
+                Advocating for, or encouraging, any of the above behaviour
               </List.Item>
             </List.Group>
           </Layout.Column>
@@ -241,10 +212,8 @@ const CoC = () => {
             Photo policy
           </TextBlock.Title>
           <TextBlock.Text className="text-primary">
-            <span>
               We will have colored lanyards for attendees to indicate their
               comfort level with being photographed:
-            </span>
           </TextBlock.Text>
         </TextBlock>
         <Layout.Container padding="p-0" flex className="mb-4">
@@ -252,10 +221,8 @@ const CoC = () => {
             <List.Group>
               <List.Item>
                 <List.ItemIcon className="text-primary" />
-                <span>
                 Black means It's OK to take photographs
                 (within the boundaries of the Code of Conduct)
-                </span>
               </List.Item>
             </List.Group>
           </Layout.Column>
@@ -263,8 +230,8 @@ const CoC = () => {
             <List.Group>
               <List.Item>
                 <List.ItemIcon className="text-primary" />
-                <span>Red means you should not take photos of someone,
-                nor should you ask if you may</span>
+                Red means you should not take photos of someone,
+                nor should you ask if you may
               </List.Item>
             </List.Group>
           </Layout.Column>
@@ -274,11 +241,9 @@ const CoC = () => {
             Inclusive language
           </TextBlock.Title>
           <TextBlock.Text className=" text-primary mb-3">
-            <span>
               In our commitment to a harassment-free and inclusive environment
               we strongly believe it's important to pay attention to harmful
               language patterns
-            </span>
           </TextBlock.Text>
           <Layout.Container flex padding="p-0">
             <Layout.Column columns="6" className="pr-4">
@@ -286,7 +251,6 @@ const CoC = () => {
                 Ableism
               </TextBlock.Title>
               <TextBlock.Text className=" text-primary mb-3">
-                <span>
                   Words like "crazy", "dumb", "insane" or "lame" are examples of
                   ableist language, devaluating people who have physical or
                   mental disabilities. Its appearance often stems not from any
@@ -295,13 +259,9 @@ const CoC = () => {
                   using more fitting, clearer descriptions of what we want to
                   communicate. To find out more about ableism and replacement
                   terms please read this guide.
-                </span>
               </TextBlock.Text>
               <TextBlock.Text className=" text-primary mb-3">
-                <span>
-                  To find out more about ableism and replacement terms please
-                  read this guide.
-                </span>
+                  To find out more about ableism and replacement terms please read this guide.
               </TextBlock.Text>
             </Layout.Column>
             <Layout.Column
@@ -312,18 +272,14 @@ const CoC = () => {
                 Sexism
               </TextBlock.Title>
               <TextBlock.Text className=" text-primary mb-3">
-                <span>
                   Using gendered terms like "dude" or "guys" to address a
                   mixed-gendered group of people contributes to furthering
                   exclusion of underrepresented individuals. We strongly advise
                   avoiding gendered pronouns as well as gendered terms.
-                </span>
               </TextBlock.Text>
               <TextBlock.Text className=" text-primary mb-3">
-                <span>
                   For more information please familiarise yourself with the Geek
                   Feminism wiki guide.
-                </span>
               </TextBlock.Text>
             </Layout.Column>
           </Layout.Container>
@@ -333,11 +289,9 @@ const CoC = () => {
             Attribution
           </TextBlock.Title>
           <TextBlock.Text className="text-primary">
-            <span>
               This Code of Conduct was based on JSConf EU, CSSConf / JSConf AU,
               The Geek Feminism wiki, the work of Valerie Aurora, WeAllJS, and
               Conference Code of Conduct.
-            </span>
           </TextBlock.Text>
         </TextBlock>
       </Layout.Container>

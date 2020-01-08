@@ -114,3 +114,6 @@ dist
 
 # TernJS port file
 .tern-port
+
+# purce-css
+gatsby-plugin-purgecss-debug-config.js
