@@ -36,7 +36,10 @@ Card.Title = props => (
     {props.children}
   </Title>
 );
-Card.Text = props => <Paragraph className="my-2 text-primary">{props.children}</Paragraph>;
+Card.Text = props => (
+  <Paragraph className="my-2 text-primary">
+    <>{props.children}</>
+  </Paragraph>);
 Card.Divider = props => <hr {...props} />
 Card.Button = props => <Cta {...props}>{props.children}</Cta>;
 Card.Link = props => (

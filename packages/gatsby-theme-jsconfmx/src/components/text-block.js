@@ -21,12 +21,21 @@ const TextBlock = ({ centered, children, bg, className, container }) => {
     </div>
   );
 };
-TextBlock.Title = props => <Title as={props.as||"h3"} className={cx('font-light', props.className)} >
-{props.children}
-</Title>
-TextBlock.Text = props => <Paragraph {...props} className={cx("mb-2", props.className)}>
-{props.children}
-</Paragraph>
+
+TextBlock.Title = props => (
+  <Title as={props.as||"h3"} className={cx('font-light', props.className)} >
+    {props.children}
+  </Title>
+);
+
+TextBlock.Text = props => (
+  <Paragraph {...props} className={cx("mb-2", props.className)}>
+    <>
+      {props.children}
+    </>
+  </Paragraph>
+);
+
 TextBlock.propTypes = {
   intro: PropTypes.string,
   title: PropTypes.string,
