@@ -1,6 +1,5 @@
 import React from "react";
-import PropTypes from "prop-types";
-import cx from 'classnames';
+import cx from "classnames";
 import { Link } from "gatsby";
 import _isString from "lodash/isString";
 import ImageProvider from "./fluid-image-provider";
@@ -11,24 +10,24 @@ import Title from "./title";
 
 const Card = props => {
   return (
-    <div className={cx("p-3 lg:p-4", props.className)}>
-      {props.children}
-    </div>
+    <div className={cx("p-3 lg:p-4", props.className)}>{props.children}</div>
   );
 };
 
 Card.Intro = props => <IntroText>{props.children}</IntroText>;
 
 Card.Image = props => {
-  const image = <>{props.src && <ImageProvider {...props} />}</>
-  return props.to?(
+  const image = <>{props.src && <ImageProvider {...props} />}</>;
+  return props.to ? (
     <Link
       to={props.to}
       className="text-2xl text-primary no-underline hover:underline"
     >
       {image}
     </Link>
-  ):image
+  ) : (
+    image
+  );
 };
 
 Card.Title = props => (
@@ -43,7 +42,7 @@ Card.Text = props => (
   </Paragraph>
 );
 
-Card.Divider = props => <hr {...props} />
+Card.Divider = props => <hr {...props} />;
 
 Card.Button = props => <Cta {...props}>{props.children}</Cta>;
 

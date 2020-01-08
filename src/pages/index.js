@@ -7,7 +7,7 @@ function IndexPage() {
   return (
     <Layout title="JSConf" >
       <Layout.Container>
-      <p>home</p>
+      Home
       </Layout.Container>
     </Layout>
   );

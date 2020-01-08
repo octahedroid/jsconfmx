@@ -80,7 +80,7 @@ function Layout({ children, title }) {
           <Header.Navbar handleShowSidebar={handleShowSidebar}>
             {mainMenu &&
               mainMenu.map(item => (
-                <Header.MenuItem to={item.to} active={item.active}>
+                <Header.MenuItem key={item.name} to={item.to} active={item.active}>
                   {item.name}
                 </Header.MenuItem>
               ))}
@@ -93,7 +93,7 @@ function Layout({ children, title }) {
           <MobileMenu.Navegation>
             {mainMenu &&
               mainMenu.map(item => (
-                <MobileMenu.Item active={item.active}>
+                <MobileMenu.Item active={item.active} key={item.name}>
                   <MobileMenu.Link to={item.to} active={item.active}>
                     {item.name}
                   </MobileMenu.Link>
@@ -110,7 +110,7 @@ function Layout({ children, title }) {
             </>
           </Footer.Text>
           <Footer.Text container className="text-white text-sm">
-            <p>Diseño: Delta Nidia</p>
+            <>Diseño: Delta Nidia</>
           </Footer.Text>
         </Footer>
       </div>

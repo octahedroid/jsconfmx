@@ -29,9 +29,7 @@ const MobileMenu = ({ children, showSidebar, handleShowSidebar }) => {
 };
 
 MobileMenu.Navegation = props => (
-  <ul className="list-none pl-0">
-    {props.children}
-  </ul>
+  <ul className="list-none pl-0">{props.children}</ul>
 );
 MobileMenu.Item = props => <li className="">{props.children}</li>;
 MobileMenu.Link = props => (

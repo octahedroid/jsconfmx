@@ -1,5 +1,4 @@
 import React from "react";
-import PropTypes from "prop-types";
 import cx from "classnames";
 import Cta from "./cta";
 import IntroText from "./intro-text";
@@ -15,14 +14,14 @@ const CtaBlock = props => {
         "bg-lightShade text-black": !props.dark
       })}
     >
-      <div className="container mx-auto text-center">
-        {props.children}
-      </div>
+      <div className="container mx-auto text-center">{props.children}</div>
     </div>
   );
 };
 
-CtaBlock.Intro = props => <IntroText dark={props.dark}>{props.children}</IntroText>;
+CtaBlock.Intro = props => (
+  <IntroText dark={props.dark}>{props.children}</IntroText>
+);
 CtaBlock.Title = props => (
   <Title as="h2" className="mb-3" color={props.dark ? "white" : "black"}>
     {props.children}
@@ -34,7 +33,11 @@ CtaBlock.Text = props => (
   </Paragraph>
 );
 CtaBlock.Cta = props => (
-  <Cta to={props.to} type={props.dark ? "lightShade" : "darkShade"} darkText={props.dark}>
+  <Cta
+    to={props.to}
+    type={props.dark ? "lightShade" : "darkShade"}
+    darkText={props.dark}
+  >
     {props.children}
   </Cta>
 );
