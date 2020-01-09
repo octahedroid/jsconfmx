@@ -13,7 +13,7 @@ function Header({ scrolled, children }) {
   return (
     <nav
       id="header"
-      className={cx(`fixed w-full z-30 h-nabvar top-0 text-white bg-white`, {
+      className={cx(`fixed w-full z-30 h-nabvar top-0 text-white bg-white shadow-lg`, {
         "shadow-lg": scrolled
       })}
       sx={{
