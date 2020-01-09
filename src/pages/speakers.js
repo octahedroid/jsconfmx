@@ -26,7 +26,7 @@ const speakers = [
 
 const Speakers = () => {
   return (
-    <Layout title="Código de conducta">
+    <Layout title="Speakers">
       <Layout.Container className="px-5">
         <TextBlock centered>
           <TextBlock.Title className="text-secondary mb-3 ">
