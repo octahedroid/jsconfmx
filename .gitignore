@@ -120,3 +120,6 @@ gatsby-plugin-purgecss-debug-config.js
 
 # firebase
 .firebase/
+
+# vscode
+.vscode/
