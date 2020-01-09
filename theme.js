@@ -18,7 +18,8 @@ const myTheme = {
   height:{
     ...baseTheme.height,
     navbar: '50px',
-    hero: '700px'
+    hero: '700px',
+    speaker: '500px'
   },
   styles: { 
     ...baseTheme.styles,
