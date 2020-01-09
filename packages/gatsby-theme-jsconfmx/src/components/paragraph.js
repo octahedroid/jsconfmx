@@ -7,7 +7,7 @@ const paragraph = props => {
     typeof props.children === "string" || props.children instanceof String;
   return (
     <>
-      {isString && <div dangerouslySetInnerHTML={{ __html: props.children }} />}
+      {isString && <div className={props.className} dangerouslySetInnerHTML={{ __html: props.children }} />}
       {!props.className && !isString && (
         <Styled.p {...props}>{props.children}</Styled.p>
       )}

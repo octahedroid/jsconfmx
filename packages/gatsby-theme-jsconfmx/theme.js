@@ -390,6 +390,7 @@ const spacing = {
   '48': '12rem',
   '56': '14rem',
   '64': '16rem',
+  '66': '22rem',
   '72': '26rem',
   '80': '36rem',
   navbar: '100px',
