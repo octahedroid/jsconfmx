@@ -26,8 +26,12 @@ const mainMenu = [
     to: "/"
   },
   {
+    name: "Ponentes",
+    to: "/speakers"
+  },
+  {
     name: "Código de conducta",
-    to: "/coc"
+    to: "/CodeOfConduct"
   },
   {
     name: "Patrocinadores",
